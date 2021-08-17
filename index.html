@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Plogo.png" type="image/png">
+    <title>Parking Lot</title>
+</head>
+<body>
+    <header>
+        <div class="nav">
+            <div class="center">
+                <span><img src="PLogo.png" alt="Logo" class="logo"></span>
+                <span class="logotext">Parking Lot</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="first_section">
+        <form id="itemForm" method="POST">
+            <div class="note">
+                <input type="text" class="ttl" placeholder="Enter Name" id="itemName" required>
+                <input type="text" class="ttl" placeholder="Enter Vehicle Name" id="itemVName" required>
+                <input type="text" class="ttl" placeholder="Enter Vehicle Number" id="itemVNo" required>
+                <div class="lala">
+                    <div class="lo">
+                        <div class="lotxt">Entry Date</div>
+                        <div class="lotxt">Exit Date</div>
+                    </div>
+                    <input type="date" class="ttl1" id="itemEntry" required>
+                    <input type="date" class="ttl1" id="itemExit" required>
+                </div>
+            </div>
+            <div class="fwrapper">
+                <button class="s-button" type="submit">Add Car</button>
+            </div>
+        </form>
+    </div>
+
+    <div class="display">
+        <div class="display-task" id="diplay-task">
+
+            <!-- Task -->
+
+            <!-- <div class="tsk" id="tsk">
+                <div class="hii">
+                    <div class="hi">
+                        <div class="hidden"><span class="item-name">1</span></div>
+                        <div class="task-details">
+                            <table class="table">
+                                <tr>
+                                    <th>Name</th>
+                                    <td>:</td>
+                                    <td class="td1">Mathew</td>
+                                </tr>
+                                <tr>
+                                    <th>Vehicle Name</th>
+                                    <td>:</td>
+                                    <td class="td1">Camero</td>
+                                </tr>
+                                <tr>
+                                    <th>Vehicle Number</th>
+                                    <td>:</td>
+                                    <td class="td1">UP93AH6175</td>
+                                </tr>
+                                <tr>
+                                    <th>Entry date</th>
+                                    <td>:</td>
+                                    <td class="td1">17Aug</td>
+                                </tr>
+                                <tr>
+                                    <th>Exit date</th>
+                                    <td>:</td>
+                                    <td class="td1">20Aug</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="del">
+                            <button class="del-btn">
+                                <i class="fas fa-times fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot">
+            <div class="haha">
+                <div class="one">
+                    <h3>Features</h3>
+                    <ul>
+                        <li><a href="#">How it works</a></li>
+                        <li><a href="#">for teams</a></li>
+                        <li><a href="#">Templates</a></li>
+                    </ul>
+                </div>
+                <div class="two">
+                    <h3>Company</h3>
+                    <ul>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Help center</a></li>
+                    </ul>
+                </div>
+                <div class="three"></div>
+                <div class="four">
+                    <div class="social">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-snapchat-ghost"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <p class="copyright">Parking Lot ©️ 2021</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
